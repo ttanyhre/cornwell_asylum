@@ -9,11 +9,15 @@ public class MainMenuManager : MonoBehaviour
     public GameObject player;
 
     [Header("Transition Settings")]
-    public float transitionDuration = 2.0f; 
+    public float transitionDuration = 2.0f;
+
+    [Header("Menu Panels")]
+    public GameObject mainPanel;
+    public GameObject optionsPanel;
 
     void Start()
     {
-        if (player != null) 
+        if (player != null)
         {
             player.SetActive(false);
         }
@@ -36,18 +40,35 @@ public class MainMenuManager : MonoBehaviour
         menuCanvas.SetActive(false);
         blackScreen.SetActive(true);
 
-        
         yield return new WaitForSeconds(transitionDuration);
 
         blackScreen.SetActive(false);
         menuCamera.SetActive(false);
 
-        if (player != null) 
+        if (player != null)
         {
             player.SetActive(true);
         }
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void OpenOptions()
+    {
+        mainPanel.SetActive(false);
+        optionsPanel.SetActive(true);
+    }
+
+    public void CloseOptions()
+    {
+        optionsPanel.SetActive(false);
+        mainPanel.SetActive(true);
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quitting Game...");
+        Application.Quit();
     }
 }

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.jfcartier.collider-event-system": "https://github.com/jfcmontmorency/collider-event-system.git",
     "com.unity.ai.navigation": "2.0.14",
     "com.unity.cinemachine": "3.1.7",
     "com.unity.collab-proxy": "2.13.6",

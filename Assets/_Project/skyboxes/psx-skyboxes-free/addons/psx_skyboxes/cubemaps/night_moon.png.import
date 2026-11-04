@@ -1,0 +1,25 @@
+[remap]
+
+importer="cubemap_texture"
+type="CompressedCubemap"
+uid="uid://0p2ftwex78ag"
+path="res://.godot/imported/night_moon.png-d4970e1a7f76a2c8c7b8353936f0bb3e.ccube"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://addons/psx_skyboxes/cubemaps/night_moon.png"
+dest_files=["res://.godot/imported/night_moon.png-d4970e1a7f76a2c8c7b8353936f0bb3e.ccube"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/arrangement=2

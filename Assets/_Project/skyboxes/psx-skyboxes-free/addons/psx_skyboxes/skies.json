@@ -1,0 +1,47 @@
+{
+ "skies": [
+  {
+   "name": "night_moon",
+   "category": "night",
+   "fog": "212c46",
+   "light": "5c84ff",
+   "light_energy": 0.22
+  },
+  {
+   "name": "sunset_clouds",
+   "category": "sunset",
+   "fog": "885c60",
+   "light": "e1adff",
+   "light_energy": 0.69
+  },
+  {
+   "name": "fog_grey",
+   "category": "fog",
+   "fog": "b8b8b4",
+   "light": "fdfffe",
+   "light_energy": 1.3
+  },
+  {
+   "name": "aurora_green",
+   "category": "aurora",
+   "fog": "141c2b",
+   "light": "6097ff",
+   "light_energy": 0.17
+  },
+  {
+   "name": "alien_giant",
+   "category": "alien",
+   "fog": "663d73",
+   "light": "ab67ff",
+   "light_energy": 0.3
+  },
+  {
+   "name": "space_nebula",
+   "category": "space",
+   "fog": "0c0b16",
+   "light": "bb84ff",
+   "light_energy": 0.18
+  }
+ ],
+ "panorama": 1024
+}

@@ -1,0 +1,25 @@
+[remap]
+
+importer="cubemap_texture"
+type="CompressedCubemap"
+uid="uid://oaddy8s5l5rt"
+path="res://.godot/imported/space_nebula.png-9b087f328993f2bd8efdac87453a3cc9.ccube"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://addons/psx_skyboxes/cubemaps/space_nebula.png"
+dest_files=["res://.godot/imported/space_nebula.png-9b087f328993f2bd8efdac87453a3cc9.ccube"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+slices/arrangement=2
